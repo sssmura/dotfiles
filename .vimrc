@@ -4,6 +4,8 @@ set fileencodings=utf-8,cp932,sjis,utf-16le
 set fileformats=unix,dos
 
 syntax enable
+excute pathogen#infect()
+excute pathogen#helptags()
 filetype plugin indent on
 colorscheme slate
 set laststatus=2
